@@ -174,12 +174,19 @@ print(classification_report(y_test, preds))
 ---
 
 <p align="justify"><h2>Tecnologias Utilizadas</h2></p>
+
 pandas
+
 numpy
+
 scikit-learn
+
 imbalanced-learn
+
 statsmodels
+
 matplotlib
+
 seaborn
 ---
 
