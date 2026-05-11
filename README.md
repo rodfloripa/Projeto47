@@ -145,6 +145,8 @@ roc_auc_score(y_test, probs)
 ---
 
 <p align="justify"><h2>Melhor Configuração</h2></p>
+
+```python 
 best_model.fit(X_res, y_res)
 
 probs = best_model.predict_proba(X_test_proc)[:, 1]
@@ -154,6 +156,7 @@ auc = roc_auc_score(y_test, probs)
 
 print("AUC:", auc)
 print(classification_report(y_test, preds))
+```
 <p align="justify">A melhor configuração foi selecionada com base na maior média de AUC observada durante os experimentos.</p>
 
 ---
