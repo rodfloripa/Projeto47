@@ -111,6 +111,8 @@ param_grid_rf = {
 <p align="justify"><h2>Análise Estatística</h2></p>
 
 <p align="justify">Após a execução dos experimentos, foi realizada uma análise ANOVA para medir a influência estatística dos fatores.</p>
+
+```python 
 modelo = ols(
     'AUC ~ A + B + C + D + A:B + A:C + A:D + B:C + B:D + C:D',
     data=df_resultados
@@ -118,6 +120,7 @@ modelo = ols(
 
 anova = sm.stats.anova_lm(modelo, typ=2)
 print(anova)
+```
 <p align="justify">Também foram gerados:</p>
 
 <p align="justify">
