@@ -181,8 +181,11 @@ seaborn
 <p align="left"><h2>Estrutura do Projeto</h2></p>
 .
 ├── Experimentos.ipynb
+
 ├── winequality-red.csv
+
 ├── requirements.txt
+
 └── README.md
 ---
 
