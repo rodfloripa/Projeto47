@@ -92,18 +92,22 @@ if use_pca:
 
 <p align="justify"><h2>Modelos Avaliados</h2></p>
 
-<p align="justify"><b>Logistic Regression</b></p>
+<p align="justify"><b>
+    
+```python 
+#Logistic Regression
 log_reg = LogisticRegression(max_iter=1000)
 
 param_grid_lr = {
     "C": [0.01, 0.1, 1, 10]
 }
-<p align="justify"><b>Random Forest</b></p>
+#Random Forest
 rf = RandomForestClassifier(random_state=42)
 
 param_grid_rf = {
     "n_estimators": [50, 100, 200]
 }
+```
 <p align="justify">Os hiperparâmetros foram ajustados utilizando <b>GridSearchCV</b> com validação cruzada de 5 folds.</p>
 
 ---
