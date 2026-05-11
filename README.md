@@ -190,6 +190,4 @@ seaborn
 
 <p align="justify">A utilização de DOE em Machine Learning é especialmente útil em cenários nos quais existem múltiplas combinações possíveis de pré-processamento, balanceamento e algoritmos, reduzindo experimentação aleatória e tornando o processo mais científico e reprodutível.</p>
 
-Pronto, agora tá legível. 
 
-Quer que eu também revise o texto pra deixar mais natural em português acadêmico, ou só precisava corrigir a codificação mesmo?
