@@ -1,16 +1,16 @@
-<p align="justify"><h1>Planejamento Fatorial em Machine Learning: ClassificaÃ§Ã£o da Qualidade de Vinhos</h1></p>
+<p align="justify"><h1>Planejamento Fatorial em Machine Learning: Classificação da Qualidade de Vinhos</h1></p>
 
-<p align="justify">Este projeto aplica tÃ©cnicas de <b>Planejamento de Experimentos (DOE â€” Design of Experiments)</b> para analisar o impacto de diferentes escolhas de prÃ©-processamento e algoritmos de Machine Learning na tarefa de classificaÃ§Ã£o da qualidade de vinhos.</p>
+<p align="justify">Este projeto aplica tÃ©cnicas de <b>Planejamento de Experimentos (DOE ” Design of Experiments)</b> para analisar o impacto de diferentes escolhas de prÃ©-processamento e algoritmos de Machine Learning na tarefa de classificação da qualidade de vinhos.</p>
 
-<p align="justify">A proposta utiliza um <b>planejamento fatorial completo \(2^4\)</b>, permitindo avaliar sistematicamente como fatores como modelo, normalizaÃ§Ã£o, PCA e balanceamento afetam o desempenho do sistema.</p>
+<p align="justify">A proposta utiliza um <b>planejamento fatorial completo \(2^4\)</b>, permitindo avaliar sistematicamente como fatores como modelo, normalização, PCA e balanceamento afetam o desempenho do sistema.</p>
 
 ---
 
 <p align="justify"><h2>Objetivo</h2></p>
 
-<p align="justify">O objetivo principal do projeto Ã© identificar quais componentes do pipeline de Machine Learning possuem maior influÃªncia sobre a mÃ©trica AUC (Area Under the ROC Curve), alÃ©m de analisar possÃ­veis interaÃ§Ãµes entre os fatores experimentais.</p>
+<p align="justify">O objetivo principal do projeto Ã© identificar quais componentes do pipeline de Machine Learning possuem maior influência sobre a métrica AUC (Area Under the ROC Curve), alÃ©m de analisar possíveis interaÃ§Ãµes entre os fatores experimentais.</p>
 
-<p align="justify">Em vez de testar configuraÃ§Ãµes aleatoriamente, o projeto utiliza metodologia estatÃ­stica para construir uma anÃ¡lise estruturada e reprodutÃ­vel.</p>
+<p align="justify">Em vez de testar configuraçoes aleatoriamente, o projeto utiliza metodologia estatÃ­stica para construir uma análise estruturada e reprodutÃ­vel.</p>
 
 ---
 
@@ -18,7 +18,7 @@
 
 <p align="justify">Foi utilizada a base <b>Wine Quality Dataset</b>, disponibilizada pela UCI Machine Learning Repository.</p>
 
-<p align="justify">A base contÃ©m atributos fÃ­sico-quÃ­micos de vinhos tintos, incluindo:</p>
+<p align="justify">A base contem atributos físico químicos de vinhos tintos, incluindo:</p>
 
 <p align="justify">
 - Acidez fixa;<br>
