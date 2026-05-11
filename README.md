@@ -57,6 +57,8 @@ D	Balanceamento	RandomUnderSampler	SMOTE
 
 <p align="justify"><h2>Pipeline Experimental</h2></p>
 Split treino/teste
+
+``` python
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
@@ -86,7 +88,7 @@ if use_pca:
     pca = PCA(n_components=0.95)
     X_res = pca.fit_transform(X_res)
     X_test_proc = pca.transform(X_test_proc)
----
+```
 
 <p align="justify"><h2>Modelos Avaliados</h2></p>
 
