@@ -35,7 +35,10 @@
 </p>
 
 <p align="justify">O problema original de regressão foi transformado em classificação binária:</p>
+
+```python 
 wine["quality_bin"] = (wine["quality"] >= 7).astype(int)
+```
 <p align="justify">
 - Qualidade maior ou igual a 7 → vinho bom;<br>
 - Qualidade menor que 7 → vinho ruim.
