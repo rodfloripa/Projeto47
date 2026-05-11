@@ -48,12 +48,14 @@ wine["quality_bin"] = (wine["quality"] >= 7).astype(int)
 
 <p align="justify"><h2>Planejamento Fatorial</h2></p>
 
-<p align="justify">O experimento utiliza um planejamento fatorial completo $2^4$, composto por quatro fatores binários.</p>
-Fator	Descrição	-1	+1
-A	Modelo	Logistic Regression	Random Forest
-B	Scaling	Sem Scaling	StandardScaler
-C	PCA	Sem PCA	PCA
-D	Balanceamento	RandomUnderSampler	SMOTE
+<p align="justify">O experimento utiliza um planejamento fatorial completo 2^4, composto por quatro fatores binários.</p>
+
+| Fator | Descrição      | -1                    | +1               |
+|-------|-----------------|-----------------------|------------------|
+| A     | Modelo          | Logistic Regression   | Random Forest    |
+| B     | Scaling         | Sem Scaling           | StandardScaler   |
+| C     | PCA             | Sem PCA               | PCA              |
+| D     | Balanceamento   | RandomUnderSampler    | SMOTE            |
 <p align="justify">Cada combinação experimental foi executada três vezes para reduzir variabilidade estatística.</p>
 
 ---
