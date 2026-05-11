@@ -4,7 +4,7 @@
 
 <p align="justify">Este projeto aplica técnicas de <b>Planejamento de Experimentos (DOE – Design of Experiments)</b> para analisar o impacto de diferentes escolhas de pré-processamento e algoritmos de Machine Learning na tarefa de classificação da qualidade de vinhos.</p>
 
-<p align="justify">A proposta utiliza um <b>planejamento fatorial completo $2^4$</b>, permitindo avaliar sistematicamente como fatores como modelo, normalização, PCA e balanceamento afetam o desempenho do sistema.</p>
+<p align="justify">A proposta utiliza um <b>planejamento fatorial completo 2^4, permitindo avaliar sistematicamente como fatores como modelo, normalização, PCA e balanceamento afetam o desempenho do sistema.</p>
 
 ---
 
